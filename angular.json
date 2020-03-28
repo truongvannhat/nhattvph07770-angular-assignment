@@ -23,13 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/css/animate.css",
+              "src/css/bootstrap.min.css",
               "src/css/owl.carousel.min.css",
-              "src/css/aos.css",
-              "src/css/ionicons.min.css",
-              "src/css/bootstrap-datepicker.css",
-              "src/css/flaticon.css",
+              "src/css/core.css",
+              "src/css/shortcode/shortcodes.css",
               "src/css/style.css",
+              "src/css/responsive.css",
+              "src/css/custom.css",
               "src/styles.css"
             ],
             "scripts": [
