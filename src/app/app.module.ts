@@ -5,15 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { ListPostsComponent } from './list-posts/list-posts.component';
-import { PostpublicService } from './postspublic.service';
-import { NavComponent } from './nav/nav.component';
-
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './banner/banner.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ListPostsComponent,
-    NavComponent
+    HeaderComponent,
+    FooterComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,7 +21,6 @@ import { NavComponent } from './nav/nav.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [PostpublicService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
