@@ -12,11 +12,11 @@
   </thead>
   <tbody>
     <tr *ngFor="let product of products">
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td><button>Delete</button></td>
+      <th scope="row">{{product.id}}</th>
+      <td>{{product.name}}</td>
+      <td>{{product.desc}}</td>
+      <td>${{product.quantity}}</td>
+      <td><button>view</button></td>
       <td><button>Edit</button></td>
       <td><button>Delete</button></td>
     </tr>

@@ -9,7 +9,7 @@ import { Product } from '../Product';
 })
 export class AdminProductsComponent implements OnInit {
   products: Product[];
-
+  selected: Product;
 
   constructor(
     private productService: ProductService
@@ -21,10 +21,12 @@ export class AdminProductsComponent implements OnInit {
     this.getProducts();
   }
   getProducts(){
-    this.products = this.productService.getProducts();
+    this.productService.getProducts().subscribe(data => {
+     console.log(data);
+     this.products = data;
+    });
   }
    removeItem(id){
     // this.productService.removeProduct(id);
-    this.products = this.products.filter(product => product.id != id);
   }
 }
