@@ -13,11 +13,9 @@ import { ProductsComponent } from './products/products.component';
 import { CategoryComponent } from './category/category.component';
 import { DealComponent } from './deal/deal.component';
 import { BrandComponent } from './brand/brand.component';
-import { AdminSidebarComponent } from './admin-sidebar/admin-sidebar.component';
-import { AdminComponent } from './admin/admin.component';
-import { AdminTopbarComponent } from './admin-topbar/admin-topbar.component';
-import { AdminStatisticalComponent } from './admin-statistical/admin-statistical.component';
 import { HomeComponent } from './home/home.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { AdminComponent } from './admin/admin.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,11 +27,9 @@ import { HomeComponent } from './home/home.component';
     CategoryComponent,
     DealComponent,
     BrandComponent,
-    AdminSidebarComponent,
-    AdminComponent,
-    AdminTopbarComponent,
-    AdminStatisticalComponent,
     HomeComponent,
+    AdminDashboardComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
