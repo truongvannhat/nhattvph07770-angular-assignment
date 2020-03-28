@@ -23,24 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/css/bootstrap.min.css",
-              "src/css/owl.carousel.min.css",
-              "src/css/core.css",
-              "src/css/shortcode/shortcodes.css",
-              "src/css/style.css",
-              "src/css/responsive.css",
-              "src/css/custom.css",
               "src/styles.css"
             ],
             "scripts": [
-              "src/js/jquery.min.js",
-              "src/js/jquery-migrate-3.0.1.min.js",
-              "src/js/jquery.waypoints.min.js",
-              "src/js/jquery.stellar.min.js",
-              "src/js/owl.carousel.min.js",
-              "js/aos.js",
-              "js/scrollax.min.js",
-              "js/main.js"
             ]
           },
           "configurations": {
