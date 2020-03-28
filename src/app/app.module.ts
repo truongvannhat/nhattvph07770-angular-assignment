@@ -16,6 +16,7 @@ import { BrandComponent } from './brand/brand.component';
 import { HomeComponent } from './home/home.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AdminComponent } from './admin/admin.component';
+import { AdminProductsComponent } from './admin-products/admin-products.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { AdminComponent } from './admin/admin.component';
     HomeComponent,
     AdminDashboardComponent,
     AdminComponent,
+    AdminProductsComponent,
   ],
   imports: [
     BrowserModule,
