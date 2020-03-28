@@ -17,6 +17,7 @@ import { AdminSidebarComponent } from './admin-sidebar/admin-sidebar.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminTopbarComponent } from './admin-topbar/admin-topbar.component';
 import { AdminStatisticalComponent } from './admin-statistical/admin-statistical.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +33,7 @@ import { AdminStatisticalComponent } from './admin-statistical/admin-statistical
     AdminComponent,
     AdminTopbarComponent,
     AdminStatisticalComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
