@@ -36,7 +36,7 @@
               "src/css/magnific-popup.css",
               "src/css/main.css",
               "src/css/sb-admin-2.min.css",
-              "src/css/main.css"
+              "src/vendor/fontawesome-free/css/all.min.css"
             ],
             "scripts": [
             ]
