@@ -34,6 +34,8 @@
               "src/css/ion.rangeSlider.css",
               "src/css/ion.rangeSlider.skinFlat.css",
               "src/css/magnific-popup.css",
+              "src/css/main.css",
+              "src/css/sb-admin-2.min.css",
               "src/css/main.css"
             ],
             "scripts": [
