@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminProductsComponent } from './admin-products/admin-products.component';
+import { ProductService } from './product.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +40,7 @@ import { AdminProductsComponent } from './admin-products/admin-products.componen
     FormsModule,
     HttpClientModule
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [ProductService]
 })
 export class AppModule { }
