@@ -23,7 +23,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/css/linearicons.css",
+              "src/css/font-awesome.min.css",
+              "src/css/themify-icons.css",
+              "src/css/bootstrap.css",
+              "src/css/owl.carousel.css",
+              "src/css/nice-select.css",
+              "src/css/nouislider.min.css",
+              "src/css/ion.rangeSlider.css",
+              "src/css/ion.rangeSlider.skinFlat.css",
+              "src/css/magnific-popup.css",
+              "src/css/main.css"
             ],
             "scripts": [
             ]
