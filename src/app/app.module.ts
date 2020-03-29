@@ -18,6 +18,7 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
 import { AdminComponent } from './admin/admin.component';
 import { AdminProductsComponent } from './admin-products/admin-products.component';
 import { ProductService } from './product.service';
+import { ProductComponent } from './product/product.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,7 @@ import { ProductService } from './product.service';
     AdminDashboardComponent,
     AdminComponent,
     AdminProductsComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
