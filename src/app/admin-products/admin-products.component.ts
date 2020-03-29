@@ -9,7 +9,6 @@ import { Product } from '../Product';
 })
 export class AdminProductsComponent implements OnInit {
   products: Product[];
-  selected: Product;
 
   constructor(
     private productService: ProductService
