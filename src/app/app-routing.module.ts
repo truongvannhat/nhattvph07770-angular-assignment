@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ProductComponent } from './fontend/product/product.component';
 import { HomeComponent } from './fontend/home/home.component';
-import { AdminComponent } from './admin/admin.component';
+import { AdminComponent } from './backend/admin/admin.component';
 import { ProductsComponent } from './fontend/products/products.component';
 
 
