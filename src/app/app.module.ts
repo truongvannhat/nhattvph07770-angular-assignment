@@ -14,9 +14,9 @@ import { CategoryComponent } from './fontend/category/category.component';
 import { DealComponent } from './fontend/deal/deal.component';
 import { BrandComponent } from './fontend/brand/brand.component';
 import { HomeComponent } from './fontend/home/home.component';
-import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
-import { AdminComponent } from './admin/admin.component';
-import { AdminProductsComponent } from './admin-products/admin-products.component';
+import { AdminDashboardComponent } from './backend/admin-dashboard/admin-dashboard.component';
+import { AdminComponent } from './backend/admin/admin.component';
+import { AdminProductsComponent } from './backend/admin-products/admin-products.component';
 import { ProductService } from './product.service';
 import { ProductComponent } from './fontend/product/product.component';
 @NgModule({
