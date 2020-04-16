@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ProductComponent } from './product/product.component';
-import { HomeComponent } from './home/home.component';
+import { ProductComponent } from './fontend/product/product.component';
+import { HomeComponent } from './fontend/home/home.component';
 import { AdminComponent } from './admin/admin.component';
-import { ProductsComponent } from './products/products.component';
+import { ProductsComponent } from './fontend/products/products.component';
 
 
 
