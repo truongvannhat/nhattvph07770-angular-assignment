@@ -19,6 +19,8 @@ import { AdminComponent } from './backend/admin/admin.component';
 import { AdminProductsComponent } from './backend/admin-products/admin-products.component';
 import { ProductService } from './product.service';
 import { ProductComponent } from './fontend/product/product.component';
+import { TopbarComponent } from './backend/topbar/topbar.component';
+import { SidebarComponent } from './backend/sidebar/sidebar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +37,8 @@ import { ProductComponent } from './fontend/product/product.component';
     AdminComponent,
     AdminProductsComponent,
     ProductComponent,
+    TopbarComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,

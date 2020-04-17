@@ -28,7 +28,7 @@ const routes: Routes = [
   },
 
   {
-    path:'manager',
+    path:'admin',
     component: AdminComponent,
   },
 
