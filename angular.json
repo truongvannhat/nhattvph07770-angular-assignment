@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/vendor/style.css",
               "src/styles.css",
               "src/css/linearicons.css",
               "src/css/font-awesome.min.css",
