@@ -4,6 +4,8 @@ import { ProductComponent } from './fontend/product/product.component';
 import { HomeComponent } from './fontend/home/home.component';
 import { AdminComponent } from './backend/admin/admin.component';
 import { ProductsComponent } from './fontend/products/products.component';
+import { AdminDashboardComponent } from './backend/admin-dashboard/admin-dashboard.component';
+import { AdminProductsComponent } from './backend/admin-products/admin-products.component';
 
 
 
@@ -30,6 +32,11 @@ const routes: Routes = [
   {
     path:'admin',
     component: AdminComponent,
+    children: [
+      {path:"", redirectTo: "dashboard", pathMatch:"full"},
+      {path:"dashboard", component: AdminDashboardComponent},
+      {path:"products", component: AdminProductsComponent}
+    ]
   },
 
 ];
